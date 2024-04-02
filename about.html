@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>World's Beautiful Palace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id= "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">Facilities</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>About Us</h1>
+          </section>
+
+          <!------about us content----->
+          <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                   <h1>Why Our Hotel Is Best</h1>
+                    <p>Welcome to Joshi;s Palace, where luxury meets comfort and every guest is treated like royalty. Nestled in the heart of Bhimtal, our hotel offers a serene oasis amidst the bustling city life. Whether you're here for business or pleasure, our dedicated staff is committed to providing you with an unforgettable experience.<br><br><br>
+
+                        Step into our elegant lobby and immerse yourself in sophistication and style. From the moment you arrive, you'll be greeted with warm hospitality and impeccable service. Our beautifully appointed rooms and suites are designed to cater to your every need, featuring modern amenities and plush furnishings to ensure your stay is nothing short of extraordinary.<br><br><br>
+                        
+                        Indulge your palate at our gourmet restaurant, where our talented chefs craft exquisite dishes using the freshest local ingredients. After a day of exploring the city or attending meetings, unwind with a refreshing cocktail at our chic bar or relax by the poolside and soak in the tranquil ambiance.<br><br><br>
+                        
+                        For those seeking rejuvenation, our spa offers a range of indulgent treatments and therapies designed to pamper and revitalize the body and mind. And for the fitness enthusiasts, our state-of-the-art gym is equipped with the latest equipment to help you stay active during your stay.<br><br><br>
+                        
+                        Whether you're here for a romantic getaway, a family vacation, or a business trip, Joshi's Palace promises to exceed your expectations and create memories that will last a lifetime. Welcome to your home away from home. Welcome to Joshi's Palace.<br><br><br>
+                        </p>
+                   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                 </div>
+                  <div class="about-col">
+                    <img src="images/about.jpg">
+                 </div>
+                 </div>
+             </section>
+
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>You can contact us in the contact page.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shubham</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>

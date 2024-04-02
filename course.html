@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>World's Biggest University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">Facilities</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>Our Facilities</h1>
+          </section>
+
+          <!----course---->
+          <section class="course">
+            <h1>Facilities We Offer</h1>
+            <p>Welcome to Joshi's Palace, where we strive to provide our guests with an exceptional experience through our world-class facilities and amenities.</p>
+        
+            <div class="row">
+                <div class="course-col">
+                    <h3>Accommodations:</h3>
+                    <ul>
+                        <li>Luxurious rooms and suites with modern furnishings and stunning city views</li>
+                        <li>Comfortable bedding and linens to ensure a restful night's sleep</li>
+                        <li>High-speed internet access and spacious work areas for business travelers</li>
+                        <li>In-room entertainment options including flat-screen TVs and premium channels</li>
+                    </ul>
+                </div>
+                <div class="course-col">
+                    <h3>Dining:</h3>
+                    <ul>
+                        <li>Gourmet restaurant serving delectable dishes crafted by our talented chefs using locally sourced ingredients</li>
+                        <li>Casual café offering light bites, pastries, and freshly brewed coffee</li>
+                        <li>Stylish bar serving handcrafted cocktails, fine wines, and a selection of premium spirits</li>
+                    </ul>
+                </div>
+                <div class="course-col">
+                    <h3>Leisure and Recreation:</h3>
+                    <ul>
+                        <li>Outdoor swimming pool with a sun deck and loungers for soaking up the sun</li>
+                        <li>Fully equipped fitness center with cardio machines, free weights, and personal training services</li>
+                        <li>Spa and wellness center offering a range of rejuvenating treatments, massages, and beauty services</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!----facilities---->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>There are some facilities that our hotel provides</p>
+        
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.jpg">
+                    <h3>World Class Bedrooms</h3>
+                    <p>Luxurious rooms and suites with modern furnishings and stunning city views.Comfortable bedding and linens to ensure a restful night's sleep</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.jpg">
+                    <h3>Billiards And Other Games</h3>
+                    <p>The hotel have sports facilities such as playgrounds, courts for basketball, volleyball, and badminton, as well as indoor sports facilities for table tennis,Pool and chess.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.jpg">
+                    <h3>Swimming Pool</h3>
+                    <p>Indulge in a refreshing escape at Joshi's Palace, where our inviting swimming pool awaits you. Situated amidst lush greenery and bathed in natural sunlight, our pool area offers the perfect oasis for relaxation and rejuvenation.</p>
+                </div>
+            </div>
+        </section> 
+
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>You can contact us on the contact page.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shubham</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>
